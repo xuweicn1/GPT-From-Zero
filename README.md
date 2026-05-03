@@ -248,3 +248,27 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ### Q3：版本冲突？
 
 建议严格按照 `requirements.txt` 中的版本范围安装，避免兼容性问题。
+
+
+
+## 七、使用UV
+
+```bash
+# 如果没有 pyproject.toml，先初始化
+uv init
+
+# 从 requirements.txt 导入所有依赖
+uv add -r requirements.txt
+
+# 根据 pyproject.toml 和 uv.lock 同步环境
+uv sync
+
+# 查看已安装的包
+uv run pip list
+
+# 或使用 uv tree 查看依赖树
+uv tree
+
+```
+
+
