@@ -4,3 +4,4 @@ __pycache__
 *.xlsx
 test.py
 .vscode
+.ipynb_checkpoints/
