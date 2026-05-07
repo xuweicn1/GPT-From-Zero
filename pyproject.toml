@@ -15,5 +15,6 @@ dependencies = [
     "tiktoken>=0.5.1",
     "torch>=2.2.2 ; platform_machine != 'x86_64' or sys_platform != 'darwin'",
     "torch>=2.2.2,<2.6 ; platform_machine == 'x86_64' and sys_platform == 'darwin'",
+    "torchvision>=0.20.1",
     "tqdm>=4.66.1",
 ]
