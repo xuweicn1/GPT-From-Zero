@@ -53,10 +53,10 @@ print(model)
 
 
 
-import os
-print("当前工作目录:", os.getcwd())
-print("data/MNIST/raw 是否存在:", os.path.exists('./data/MNIST/raw'))
-print("训练集文件是否存在:", os.path.exists('./data/MNIST/raw/train-images-idx3-ubyte.gz'))
+# import os
+# print("当前工作目录:", os.getcwd())
+# print("data/MNIST/raw 是否存在:", os.path.exists('./data/MNIST/raw'))
+# print("训练集文件是否存在:", os.path.exists('./data/MNIST/raw/train-images-idx3-ubyte.gz'))
 
 
 import torch.optim as optim
